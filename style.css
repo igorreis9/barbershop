@@ -1,0 +1,140 @@
+@font-face {
+    font-family: coolsans;
+    src: url(./coolsans.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1549271568-e87e07c5406b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    /* display: flex; */
+    text-align: center;
+
+}
+
+.header {
+    font-family: coolsans;
+    font-weight: 400;
+
+}
+
+.header hr {
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    border-color: #f88b24;
+    margin-top: 10px;
+
+}
+
+header h1 {
+    width: 65%;
+    margin: auto;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 40px;
+    font-family: Quicksand;
+    text-shadow: 2px 3px 3px black;
+}
+
+button {
+    background-color: #f88b24;
+    border-radius: 20px;
+    margin-top: 40px;
+    width:300px;
+    padding: 20px;
+    border: 1px solid #f88b24;
+    font-family: Quicksand;
+    font-weight: bolder;
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.cta p {
+    margin-top: 10px;
+}
+
+footer {
+    bottom: 0;
+    height: 6vh;
+    text-align: center;
+    font-family: Quicksand;
+    text-shadow: 2px 3px 3px black;
+    width: 100%;
+}
+
+
+@media (max-width:320px) {
+    button {
+        width: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    header h1{
+        width: 65%;
+        margin: auto;
+        font-size: 10px;
+    }
+    main {
+        width: 85%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 40px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    button {
+        width: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    header h1{
+        width: 70%;
+        margin: auto;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        padding: 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    button {
+        padding: 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    button {
+        padding: 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+}
